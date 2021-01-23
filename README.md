@@ -1,3 +1,3 @@
 # FE_Practice
 
-##code practice from mdn web docs 
+## code practice from mdn web docs 
