@@ -1,6 +1,6 @@
-h1{
+/* h1{
     color:red;
-}
+} */
 p,li {
     color: green;
   }
@@ -16,4 +16,20 @@ p,li {
   }
   h1 + p {
     font-size: 200%;
+  }
+  a:link {
+    color: pink;
+  }
+  
+  a:visited {
+    color: rgb(102, 0, 128);
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(230, 219, 69);
+  }
+  body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
   }
