@@ -1,21 +1,57 @@
 h1 {
-    color: white;
+  color: hsl(30, 100%, 50%, 1);
     background-color: rgb(11, 51, 228);
+    width: max-content;
+    border: 5px solid;
+    border-style: dotted;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
 
   }
 
   .instruction{
       color:white;
-      font-size: 30px;
+      font-size: 2em;
       background-color: rgb(166, 11, 228);
+      width: min-content;
+      border: 5px solid;
+      border-style: dashed solid;
+      border-color: red #32a1ce;
 
   }
   body{
       background-color: rgb(168, 206, 241);
+      border: 5px solid green;
   }
 
   ol{
     background-color: rgb(219, 119, 206);
-    font-size: 20px;
+    font-size: initial;
+    border:5px solid;
+    border-color: red rgba(170, 50, 220, .6) green;
     
+  }
+  a{
+    font-size: xx-large;
+      font-weight:bold;
+      
+  }
+  /* .manythings{
+      color: darkgreen;
+      background-color: yellow;
+      font-size: 20px;
+
+  } */
+
+  p{
+      color:purple;
+  }
+  div {
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 2rem;
+    outline-offset: 0.5rem;
   }
