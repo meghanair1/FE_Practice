@@ -21,6 +21,8 @@ h1 {
   body{
       background-color: rgb(168, 206, 241);
       border: 5px solid green;
+      background-image: url("../assets/favorite-4.jpg");
+
   }
 
   ol{
@@ -45,7 +47,7 @@ h1 {
   p{
       color:purple;
   }
-  div {
+  .outer1 {
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
     box-shadow: 0 0 0 2rem skyblue;
@@ -55,3 +57,43 @@ h1 {
     padding: 2rem;
     outline-offset: 0.5rem;
   }
+  .outer {
+    border: 5px solid black;
+  }
+  
+  /* .box {
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+  } */
+
+  .box2 {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.9turn);
+    width: 500px;
+    /* width: calc(100% - 50px); */
+   
+  }
+  .box3 {
+    margin: 10px 0;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.6) 60%, rgba(252,176,69,1) 100%), 
+    radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 28%);
+    border: 20px dashed black;
+    padding: 20px;
+    width: 400px;
+    background-origin: padding-box, content-box;
+    background-repeat: no-repeat;
+  }
+/* 
+  @media (min-width: 30em) {
+    body {
+      background-color: rgb(164, 209, 212);
+    }
+  } */
+
+ 
