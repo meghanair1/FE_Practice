@@ -95,5 +95,29 @@ h1 {
       background-color: rgb(164, 209, 212);
     }
   } */
+  blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+        
+/* .fix-this {
+    all: unset;
+}
+     */
 
+     #winning {
+      background-color: red;
+      border: 1px solid black ;
+  }
+      
+  .better {
+      background-color: gray !important;
+      border: none ;
+  }
+      
+  p {
+      background-color: blue;
+      color: white;
+      padding: 5px !important;
+  }         
  
