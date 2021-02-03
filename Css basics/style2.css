@@ -1,0 +1,48 @@
+h1{
+    color:blue;
+}
+h2{
+    color:white;
+    background-color: blue;
+
+}
+span{
+    font-size: 200%;
+}
+
+#special{
+    background-color: yellow;  
+}
+
+.alert{
+    border:1px grey solid;
+}
+
+span.alert.stop{
+    background-color:red;  
+}
+
+span.alert.go{
+    background-color:green;  
+}
+a{
+    color: orange
+}
+a:visited{
+    color:green
+}
+a:hover{
+    text-decoration: none;
+}
+.container p:first-child{
+    font-size: 150%;
+}
+
+.container:first-line{
+    color:red;
+}
+tr:nth-child(even){
+color:white;
+ background-color:  #333 ;
+
+}
