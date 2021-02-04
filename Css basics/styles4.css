@@ -1,7 +1,7 @@
 
 a {
     border: 5px solid grey;
-  
+    box-sizing: border-box;
 }
 
 a[title]{
@@ -14,3 +14,27 @@ a[href*="contact"]{
 a[href^="https"]{
     border-color: green;
 }
+.container {
+    border-top: 5px solid green;
+     
+    border-right: 1px solid black;
+    border-bottom: 80px double rgb(223, 219, 25);
+    border-right: 80px double rgb(145, 23, 23);
+    border-left: 80px double rgb(185, 221, 22);
+    border-top: 80px double rgb(145, 23, 54);
+  }
+  
+  .box {
+    border: 1px solid #333333;
+    border-top-style: solid;
+    border-right-width: 80px;
+    border-left-width: 80px;
+    border-top-width: 80px;
+    border-bottom-width: 80px;
+    border-bottom-color: hotpink;
+    border-top-color: green;
+    font-size:200%;
+    text-align:center
+  }
+    
+
