@@ -22,6 +22,8 @@ h1 {
       background-color: rgb(168, 206, 241);
       border: 5px solid green;
       background-image: url("../assets/favorite-4.jpg");
+      background-repeat: no-repeat;
+       background-size: cover;
 
   }
 

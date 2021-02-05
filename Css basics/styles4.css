@@ -34,7 +34,19 @@ a[href^="https"]{
     border-bottom-color: hotpink;
     border-top-color: green;
     font-size:200%;
-    text-align:center
+    text-align:center;
   }
     
 
+nav a {
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+  }
+  
+ nav a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+  }
+      
