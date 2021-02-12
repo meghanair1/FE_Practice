@@ -23,7 +23,9 @@ h1 {
       border: 5px solid green;
       background-image: url("../assets/favorite-4.jpg");
       background-repeat: no-repeat;
-       background-size: cover;
+      background-size: cover;
+      background-position: top 20px right 10px;
+      background-attachment: scroll;
 
   }
 
